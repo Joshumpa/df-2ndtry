@@ -1,6 +1,6 @@
 import React from 'react'
 import GaugeList from '../components/GaugeList'
-import Gauges from '../components/Gauges'
+import Button from '../components/Button'
 
 class DigFac extends React.Component {
     constructor(props) {
@@ -44,7 +44,7 @@ class DigFac extends React.Component {
                 <GaugeList
                     gauges={this.state.data}
                 />
-
+                <Button/>
             </div>
         )
     }
